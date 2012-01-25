@@ -4,12 +4,11 @@
 
     <groupId>net.remgant</groupId>
     <artifactId>game-framework</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
 
     <scm>
-        <connection>scm:svn:http://localhost/svn/repo/game-framework/tags/game-framework-1.0</connection>
-        <url>http://localhost/viewvc/repo/game-framework/tags/game-framework-1.0</url>
-        <tag>HEAD</tag>
+        <connection>scm:svn:http://localhost/svn/repo/game-framework</connection>
+        <url>http://localhost/viewvc/repo/game-framework</url>
     </scm>
 
     <dependencies>
