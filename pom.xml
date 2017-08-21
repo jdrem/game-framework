@@ -14,7 +14,7 @@
     <distributionManagement>
        <snapshotRepository>
           <id>nexus-snapshots</id>
-          <url>http://maven.home.remgant.net:8081/nexus/content/repositories/snapshots</url>
+          <url>http://maven.home.remgant.net:8081/repository/maven-snapshots/</url>
        </snapshotRepository>
     </distributionManagement>
 
@@ -65,7 +65,7 @@
                          </execution>
                       </executions>
                       <configuration>
-                         <serverId>nexus</serverId>
+                         <serverId>nexus-plugins</serverId>
                          <nexusUrl>http://maven.home.remgant.net:8081/nexus/</nexusUrl>
                          <skipStaging>true</skipStaging>
                       </configuration>
