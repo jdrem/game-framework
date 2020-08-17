@@ -7,8 +7,9 @@
     <version>1.1-SNAPSHOT</version>
 
     <scm>
-        <connection>scm:svn:http://localhost/svn/repo/game-framework</connection>
-        <url>http://localhost/viewvc/repo/game-framework</url>
+        <connection>scm:git@github.com:jdrem/game-framework.git</connection>
+        <developerConnection>scm:git@github.com:jdrem/game-framework.git</developerConnection>
+        <url>https://github.com/jdrem/game-framework</url>
     </scm>
 
     <distributionManagement>
@@ -43,32 +44,6 @@
                        <configuration>
                            <skip>false</skip>
                        </configuration>
-                   </plugin>
-                 <!--  <plugin>
-                      <groupId>org.apache.maven.plugins</groupId>
-                      <artifactId>maven-deploy-plugin</artifactId>
-                      <configuration>
-                         <skip>true</skip>
-                      </configuration>
-                   </plugin>-->
-                   <plugin>
-                      <groupId>org.sonatype.plugins</groupId>
-                      <artifactId>nexus-staging-maven-plugin</artifactId>
-                      <version>1.5.1</version>
-                      <executions>
-                         <execution>
-                            <id>default-deploy</id>
-                            <phase>deploy</phase>
-                            <goals>
-                               <goal>deploy</goal>
-                            </goals>
-                         </execution>
-                      </executions>
-                      <configuration>
-                         <serverId>nexus-plugins</serverId>
-                         <nexusUrl>http://maven.home.remgant.net:8081/nexus/</nexusUrl>
-                         <skipStaging>true</skipStaging>
-                      </configuration>
                    </plugin>
                </plugins>
          </pluginManagement>
